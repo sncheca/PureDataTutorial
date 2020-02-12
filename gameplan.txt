@@ -25,21 +25,21 @@ Patch 1: Playing a file
 Patch 2: Recording and playing back
 - what is an adc~
 
-TODO:
-
-Patch 3: Sound synthesis
+**Patch 3: Sound synthesis
 - use the 440SinTone as the starting point
 - gain sliders
 - addition
 
-Patch 4: Multichannel applications demo
+**Patch 4: Multichannel applications demo
 - effects must be done to channels individually. Demonstrate unintentional downmix to mono
 
-Patch 5: FilteringCrossovers
+Patch 5: Filtering Demo
 - what is a filter, what is lop and hip
 
+Patch 6: Crossovers Demo
+- why is this desirable
 
-Patch 6: Networking and partner demo!
+**Patch 7: Networking and partner exercise!
 
 Other things
 -route

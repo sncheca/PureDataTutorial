@@ -1,0 +1,20 @@
+#N canvas 478 102 632 408 12;
+#X obj 90 131 readsf~ 2, f 22;
+#X msg 106 103 stop;
+#X msg 40 103 start;
+#X msg 90 65 open LSfooled.wav;
+#X text 223 57 demonstrate pitfall if you connect open directly to
+start. Show solution with comma \; two messages in sequence;
+#X obj 93 293 dac~ 1 2 3 4 5;
+#X obj 259 217 lop~ 300;
+#X text 218 296 sub is 5;
+#X connect 0 0 5 0;
+#X connect 0 0 6 0;
+#X connect 0 0 5 2;
+#X connect 0 1 5 1;
+#X connect 0 1 6 0;
+#X connect 0 1 5 3;
+#X connect 1 0 0 0;
+#X connect 2 0 0 0;
+#X connect 3 0 0 0;
+#X connect 6 0 5 4;

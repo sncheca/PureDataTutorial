@@ -19,16 +19,30 @@ Patch 0: Sin 440
 Patch 1: Playing a file
 - difference between objects and messages
 - difference between control and signal
+- what is stereo audio, demonstrate
 - pitfalls here
 
 Patch 2: Recording and playing back
+- what is an adc~
+
+TODO:
 
 Patch 3: Sound synthesis
+- use the 440SinTone as the starting point
 - gain sliders
 - addition
 
 Patch 4: Multichannel applications demo
+- effects must be done to channels individually. Demonstrate unintentional downmix to mono
 
-Patch 5: Crossovers
+Patch 5: FilteringCrossovers
+- what is a filter, what is lop and hip
+
 
 Patch 6: Networking and partner demo!
+
+Other things
+-route
+-hot vs cold inlet
+
+Other notes about pd: Always check that DSP is on. Always restart pd if you have any audio device or soundcard changes!

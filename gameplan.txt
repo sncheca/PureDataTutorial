@@ -1,0 +1,34 @@
+2020.02.13 Pure Data Workshop
+
+What is pure data?
+
+Why is pure data useful
+- realtime
+- routing
+- integration
+- multichannel
+- networking applications
+
+Patch 0: Sin 440
+- what is a sin tone?
+- what is a dac~? Basics of digital / analog audio
+- two modes (edit and run)
+- use a set message to control the pitch
+- (use a slider to control the set message)
+
+Patch 1: Playing a file
+- difference between objects and messages
+- difference between control and signal
+- pitfalls here
+
+Patch 2: Recording and playing back
+
+Patch 3: Sound synthesis
+- gain sliders
+- addition
+
+Patch 4: Multichannel applications demo
+
+Patch 5: Crossovers
+
+Patch 6: Networking and partner demo!

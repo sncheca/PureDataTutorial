@@ -36,13 +36,25 @@ Patch 2: Recording and playing back
 Patch 5: Filtering Demo
 - what is a filter, what is lop and hip
 
-Patch 6: Crossovers Demo
+Patch 6: Crossovers. Demo only. 
 - why is this desirable
 
-**Patch 7: Networking and partner exercise!
+Patch 7: Routing. Demo only.
+- routing (routing can be used without networked messages, but they tend to go hand in hand)
+- there are lots of other control structures that I'm not going to go into.
+
+**Patch 8: Networking and partner exercise!
+- what is UDP, what is OSC
+- one partner start/stop the music on other partner's machine
+- encourage them to modify filters or sound synthesis, or anything else!
 
 Other things
--route
 -hot vs cold inlet
 
-Other notes about pd: Always check that DSP is on. Always restart pd if you have any audio device or soundcard changes!
+Other notes about pd: 
+Abstractions and subpatches exist
+Always check that DSP is on
+If things are inexplicable, restart pd or delete and remake the object- 
+States can be very insecure. Use loadbangs. 
+
+start 3:45

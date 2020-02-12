@@ -1,0 +1,26 @@
+#N canvas 646 189 564 347 12;
+#X text 18 8 to be used by the sender;
+#X msg 239 97 connect localhost 8001;
+#X msg 266 124 disconnect;
+#X obj 188 219 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X text 205 218 toggle shows whether connection is open;
+#X obj 188 193 netsend -u -b;
+#X obj 31 251 print;
+#X obj 51 113 list prepend send;
+#X obj 51 139 list trim;
+#X obj 32 86 oscformat music;
+#X msg 45 56 0;
+#X msg 32 32 1;
+#X obj 43 222 oscparse;
+#X connect 1 0 5 0;
+#X connect 2 0 5 0;
+#X connect 5 0 3 0;
+#X connect 7 0 8 0;
+#X connect 8 0 5 0;
+#X connect 9 0 7 0;
+#X connect 9 0 12 0;
+#X connect 9 0 6 0;
+#X connect 10 0 9 0;
+#X connect 11 0 9 0;
+#X connect 12 0 6 0;

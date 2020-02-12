@@ -25,13 +25,15 @@ Patch 1: Playing a file
 Patch 2: Recording and playing back
 - what is an adc~
 
-**Patch 3: Sound synthesis
+Patch 3: Sound synthesis
 - use the 440SinTone as the starting point
-- gain sliders
+- gain sliders (CAREFUL)
+- acknowledge that this isn't how gain works but we're not gonna do dB today
 - addition
 
-**Patch 4: Multichannel applications. Demo only.
+Patch 4: Multichannel applications. Demo only.
 - sound that moves in a circle
+- issue with no ramps
 - quadrophonic / 5.1
 
 Patch 5: Filtering Demo

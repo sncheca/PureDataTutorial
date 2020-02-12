@@ -1,0 +1,45 @@
+#N canvas 654 54 450 529 12;
+#X obj 139 136 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 133 109 netreceive -u -b;
+#X msg 133 34 listen 8001;
+#X msg 143 59 listen 0;
+#X obj 142 256 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 163 308 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 132 308 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 192 308 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 130 427 readsf~ 2, f 16;
+#X msg 146 399 stop;
+#X obj 131 462 dac~ 1 2;
+#X text 199 457 demonstrate pitfall with mono \, failure to specify
+correct dac outs;
+#X msg 130 361 open LSfooled.wav \, start;
+#X obj 133 283 route 1 0;
+#X obj 133 163 oscparse;
+#X obj 206 257 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 133 195 list trim;
+#X obj 133 229 route music;
+#X text 19 10 to be used by the receiver;
+#X connect 1 0 0 0;
+#X connect 1 0 14 0;
+#X connect 2 0 1 0;
+#X connect 3 0 1 0;
+#X connect 5 0 9 0;
+#X connect 6 0 12 0;
+#X connect 8 0 10 0;
+#X connect 8 1 10 1;
+#X connect 9 0 8 0;
+#X connect 12 0 8 0;
+#X connect 13 0 6 0;
+#X connect 13 1 5 0;
+#X connect 13 2 7 0;
+#X connect 14 0 16 0;
+#X connect 16 0 17 0;
+#X connect 17 0 4 0;
+#X connect 17 0 13 0;
+#X connect 17 1 15 0;

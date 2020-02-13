@@ -3,13 +3,13 @@
 #X msg 106 103 stop;
 #X msg 40 103 start;
 #X obj 91 166 dac~ 1 2;
-#X msg 90 65 open LSfooled.wav;
-#X text 223 57 demonstrate pitfall if you connect open directly to
+#X text 292 59 demonstrate pitfall if you connect open directly to
 start. Show solution with comma \; two messages in sequence;
 #X text 159 161 demonstrate pitfall with mono \, failure to specify
 correct dac outs;
+#X msg 66 70 open dasSpiegelExcerpt.wav;
 #X connect 0 0 3 0;
 #X connect 0 1 3 1;
 #X connect 1 0 0 0;
 #X connect 2 0 0 0;
-#X connect 4 0 0 0;
+#X connect 6 0 0 0;
